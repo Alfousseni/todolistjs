@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#22c1c3">
+    <title>Tuto: TodoList</title>
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <form id="form" class="form">
+        <input id="champ" class="champ" placeholder="Ajouter une tâche..." autocomplete="off" required>
+        <input type="submit" class="btnAjouter" id="btnAjouter" value="+">
+    </form>
+
+    <div id="noTache" class="noTache">Aucune tâche en cours...</div>
+
+    <ol id="ol">
+    </ol>
+
+    <button id="installBtn" class="installBtn">Installer l'application<i class="material-icons md-24">add_to_home_screen</i>
+    </button>
+
+</body>
+
+</html>
